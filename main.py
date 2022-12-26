@@ -69,7 +69,6 @@ def get_gif(answer):
 
     return response_json['image']
 
-
 # Запуск процесса поллинга новых апдейтов
 async def main():
     await dp.start_polling(bot)
