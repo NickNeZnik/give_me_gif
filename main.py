@@ -59,7 +59,7 @@ async def cmd_cant_do_this(message: types.Message):
     if message.from_id == 673711809:
         await message.reply('Slava, is that you?🤨 Don\'t waste my time😉')
     else:
-        await message.reply('I can\'t do it😞')
+        await message.reply('I don\'t understand it😞')
 
 
 def get_gif(answer):
